@@ -1,0 +1,2 @@
+# Power-Distribution-in-Smart-Grids-with-Renewable-Energy-Resources
+• Course project for CSCI - 5673 (Distributed Systems) • Aiming proactively to distributing the power optimally between the units that have excess and shortage of power by running distributed algorithms that employ linear programming models based on the Network-flow problem  • Designed a smart grid installation that manages power distribution in a network of distributed generation units
