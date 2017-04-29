@@ -14,16 +14,17 @@ public class HashMapTestNew {
 		HashMapTestNew hmt = new HashMapTestNew();
 	    hm1.put(1, 10.0);
 	    hm1.put(2, 10.0);
-	    hm1.put(3, 10.0);
-	    hm1.put(4, 10.0);
-	    hm1.put(5, -40.0);
+	    hm1.put(3, -20.0);
+	    hm1.put(4, 0.0);
+	    hm1.put(5, 0.0);
 	    
 		
 		hmresult1 = hmt.mister(hm1);
 		System.out.println("The expected result is ");
 		for (int q = 0; q < hmresult1.size(); q++) {
-			  System.out.println(hmresult1.get(q+1));
-		  }
+			System.out.print("The power transferred by house " +(q+1)+ " is ");  
+			System.out.println(hmresult1.get(q+1)*hm1.get(q+1));
+		}
 		
 		
 	}
@@ -113,7 +114,7 @@ public class HashMapTestNew {
 		  //final int numcon = 4;
 		  //final int numvar = 8;
 		  final int NUMANZ = 9;
-		  double result[] = new double[8]; 
+		  //double result[] = new double[8]; 
 		  
 		  double
 	      infinity = 0;
